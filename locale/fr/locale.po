@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fr\n"
+
+
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Lecteur feuilletable de PDF"
+
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Mode de lecture feuilletable pour les PDF, à côté de la visionneuse classique."
+
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Feuilleter"
+
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Ouvrir en mode feuilletage"
+
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Page précédente"
+
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Page suivante"
+
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Voir en PDF"
+
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Chargement du livre..."
+
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Ce PDF n'a pas pu être ouvert en mode feuilletage."
+
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "sur"
+
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Réduire"
+
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Agrandir"
+
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Plein écran"
+
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Ce PDF compte {n} pages ; le mode feuilletage est limité à {teto}. Utilisez la visionneuse PDF."

@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ja\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF ページめくりビューア"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "従来のビューアと併存する、PDF のページめくり閲覧モード。"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "ページをめくる"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "ページめくりモードで開く"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "前のページ"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "次のページ"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "PDF として表示"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "本を読み込んでいます..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "この PDF はページめくりモードで開けませんでした。"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "/"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "縮小"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "拡大"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "全画面"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "この PDF は {n} ページあります。ページめくりモードは {teto} ページまでです。PDF ビューアをご利用ください。"

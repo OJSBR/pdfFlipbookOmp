@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: sv\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF-bläddringsläsare"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Bläddringsläge för PDF-filer, vid sidan av den traditionella visaren."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Bläddra"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Öppna i bläddringsläge"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Föregående sida"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Nästa sida"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Visa som PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Läser in boken ..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Det gick inte att öppna denna PDF i bläddringsläge."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "av"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Zooma ut"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Zooma in"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Helskärm"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Denna PDF har {n} sidor; bläddringsläget är begränsat till {teto}. Använd PDF-visaren."

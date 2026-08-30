@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: tr\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF Sayfa Çevirme Okuyucu"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "PDF'ler için geleneksel görüntüleyicinin yanında sayfa çevirmeli okuma kipi."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Sayfa çevir"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Sayfa çevirme kipinde aç"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Önceki sayfa"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Sonraki sayfa"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "PDF olarak görüntüle"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Kitap yükleniyor..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Bu PDF sayfa çevirme kipinde açılamadı."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "/"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Uzaklaştır"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Yakınlaştır"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Tam ekran"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Bu PDF {n} sayfa içeriyor; sayfa çevirme kipi {teto} ile sınırlıdır. Lütfen PDF görüntüleyiciyi kullanın."

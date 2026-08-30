@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ms\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Pembaca Selak Halaman PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Mod bacaan selak halaman untuk PDF, bersama pemapar tradisional."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Selak halaman"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Buka dalam mod selak halaman"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Halaman sebelumnya"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Halaman seterusnya"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Lihat sebagai PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Memuatkan buku..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "PDF ini tidak dapat dibuka dalam mod selak halaman."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "daripada"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Kecilkan"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Besarkan"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Skrin penuh"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "PDF ini mempunyai {n} halaman; mod selak halaman terhad kepada {teto}. Sila guna pemapar PDF."

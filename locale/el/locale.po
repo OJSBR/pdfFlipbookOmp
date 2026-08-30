@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: el\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Πρόγραμμα ανάγνωσης PDF με ξεφύλλισμα"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Λειτουργία ανάγνωσης PDF με ξεφύλλισμα σελίδων, δίπλα στον παραδοσιακό προβολέα."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Ξεφύλλισμα"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Άνοιγμα σε λειτουργία ξεφυλλίσματος"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Προηγούμενη σελίδα"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Επόμενη σελίδα"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Προβολή ως PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Φόρτωση του βιβλίου..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Δεν ήταν δυνατό το άνοιγμα αυτού του PDF σε λειτουργία ξεφυλλίσματος."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "από"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Σμίκρυνση"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Μεγέθυνση"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Πλήρης οθόνη"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Αυτό το PDF έχει {n} σελίδες· η λειτουργία ξεφυλλίσματος περιορίζεται σε {teto}. Χρησιμοποιήστε τον προβολέα PDF."

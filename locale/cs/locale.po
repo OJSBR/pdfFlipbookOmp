@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: cs\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Prohlížeč PDF s listováním"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Režim čtení PDF s listováním stránek, vedle tradičního prohlížeče."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Listovat"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Otevřít v režimu listování"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Předchozí stránka"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Další stránka"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Zobrazit jako PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Načítání knihy..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Tento PDF se nepodařilo otevřít v režimu listování."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "z"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Zmenšit"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Zvětšit"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Celá obrazovka"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Tento PDF má {n} stránek; režim listování je omezen na {teto}. Použijte prohlížeč PDF."

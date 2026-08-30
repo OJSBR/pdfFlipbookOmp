@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: it\n"
+
+
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Lettore sfogliabile di PDF"
+
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Modalità di lettura sfogliabile per i PDF, accanto al visualizzatore tradizionale."
+
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Sfoglia"
+
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Apri in modalità sfogliabile"
+
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Pagina precedente"
+
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Pagina successiva"
+
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Visualizza come PDF"
+
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Caricamento del libro..."
+
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Impossibile aprire questo PDF in modalità sfogliabile."
+
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "di"
+
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Riduci"
+
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Ingrandisci"
+
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Schermo intero"
+
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Questo PDF ha {n} pagine; la modalità sfogliabile è limitata a {teto}. Usa il visualizzatore PDF."

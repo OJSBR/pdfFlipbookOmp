@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: de\n"
+
+
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF-Blätterleser"
+
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Blätter-Lesemodus für PDFs, neben der klassischen Anzeige."
+
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Blättern"
+
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Im Blättermodus öffnen"
+
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Vorherige Seite"
+
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Nächste Seite"
+
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Als PDF anzeigen"
+
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Buch wird geladen …"
+
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Dieses PDF konnte nicht im Blättermodus geöffnet werden."
+
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "von"
+
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Verkleinern"
+
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Vergrößern"
+
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Vollbild"
+
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Dieses PDF hat {n} Seiten; der Blättermodus ist auf {teto} begrenzt. Bitte nutzen Sie die PDF-Anzeige."

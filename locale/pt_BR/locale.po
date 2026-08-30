@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: pt_BR\n"
+
+
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Leitor Folhear (flipbook) de PDF"
+
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Leitura de PDF em modo folhear, com virada de pagina, ao lado do visualizador tradicional."
+
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Folhear"
+
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Abrir em modo folhear (paginas viradas)"
+
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Pagina anterior"
+
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Proxima pagina"
+
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Ver como PDF"
+
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Carregando o livro..."
+
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Nao foi possivel abrir este PDF em modo folhear."
+
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "de"
+
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Reduzir"
+
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Ampliar"
+
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Tela cheia"
+
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Este PDF tem {n} páginas; o modo folhear é limitado a {teto}. Use o visualizador de PDF."

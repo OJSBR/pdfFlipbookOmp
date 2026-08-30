@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: zh_Hans\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF 翻页阅读器"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "PDF 翻页阅读模式，与传统阅读器并存。"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "翻阅"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "以翻页模式打开"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "上一页"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "下一页"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "以 PDF 查看"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "正在加载书籍…"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "无法以翻页模式打开此 PDF。"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "共"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "缩小"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "放大"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "全屏"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "此 PDF 共 {n} 页；翻页模式上限为 {teto} 页，请使用 PDF 阅读器。"

@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: fa\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "کتاب‌خوان ورق‌زن PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "حالت خواندن با ورق زدن صفحه برای PDF، در کنار نمایشگر سنتی."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "ورق زدن"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "باز کردن در حالت ورق زدن"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "صفحهٔ قبلی"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "صفحهٔ بعدی"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "نمایش به‌صورت PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "در حال بارگذاری کتاب..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "این PDF در حالت ورق زدن باز نشد."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "از"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "کوچک‌نمایی"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "بزرگ‌نمایی"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "تمام‌صفحه"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "این PDF دارای {n} صفحه است؛ حالت ورق زدن به {teto} محدود است. لطفاً از نمایشگر PDF استفاده کنید."

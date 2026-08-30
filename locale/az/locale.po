@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: az\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF üçün Vərəqləmə Oxuyucusu"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "PDF-lər üçün səhifə çevirməli oxu rejimi, ənənəvi göstərici ilə yanaşı."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Vərəqlə"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Səhifə çevirmə rejimində aç"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Əvvəlki səhifə"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Növbəti səhifə"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "PDF kimi bax"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Kitab yüklənir..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Bu PDF səhifə çevirmə rejimində açıla bilmədi."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "/"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Kiçilt"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Böyüt"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Tam ekran"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Bu PDF-də {n} səhifə var; vərəqləmə rejimi {teto} ilə məhdudlaşır. PDF göstəricisindən istifadə edin."

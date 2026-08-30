@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ka\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF-ის ფურცვლის მკითხველი"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "PDF-ების ფურცვლის რეჟიმი ტრადიციულ მაყურებელთან ერთად."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "ფურცვლა"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "გახსნა ფურცვლის რეჟიმში"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "წინა გვერდი"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "შემდეგი გვერდი"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "ნახვა PDF-ად"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "მიმდინარეობს წიგნის ჩატვირთვა..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "ამ PDF-ის გახსნა ფურცვლის რეჟიმში ვერ მოხერხდა."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "-დან"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "დაპატარავება"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "გადიდება"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "სრული ეკრანი"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "ამ PDF-ს აქვს {n} გვერდი; ფურცვლის რეჟიმი შეზღუდულია {teto}-ით. გამოიყენეთ PDF მაყურებელი."

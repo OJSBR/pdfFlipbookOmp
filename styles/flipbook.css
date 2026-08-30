@@ -1,0 +1,38 @@
+/* Leitor folhear — ocupa a viewport inteira, abaixo do cabecalho e da barra. */
+body.pdf_flipbook { margin:0; display:flex; flex-direction:column; height:100vh; overflow:hidden; background:#4a4a4a; }
+body.pdf_flipbook .header_viewable_file { flex:0 0 auto; }
+
+.flip_toolbar { flex:0 0 auto; display:flex; gap:.5rem; align-items:center; justify-content:center;
+	padding:.4rem; background:#f5f5f5; border-bottom:1px solid #ddd; flex-wrap:wrap; }
+.flip_grupo { display:inline-flex; align-items:center; gap:.25rem;
+	border:1px solid #ddd; border-radius:3px; padding:.1rem .3rem; background:#fff; }
+.flip_zoom_nivel { font-size:.85rem; min-width:3rem; text-align:center; color:#555; font-variant-numeric:tabular-nums; }
+.flip_btn_texto { font-size:.85rem; padding:.35rem .8rem; }
+.flip_btn { font-size:1.2rem; line-height:1; padding:.2rem .8rem; cursor:pointer;
+	background:#fff; border:1px solid #ccc; border-radius:3px; color:#222; text-decoration:none; }
+.flip_btn:hover { background:#eee; }
+.flip_link { font-size:.85rem; padding:.35rem .8rem; }
+.flip_pos { font-size:.9rem; color:#555; min-width:7rem; text-align:center; font-variant-numeric:tabular-nums; }
+.flip_sep { width:1px; height:1.4rem; background:#ddd; }
+
+.flip_area { flex:1 1 auto; position:relative; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+#flip_book { margin:0 auto; }
+.flip_page { background:#fff; overflow:hidden; }
+/* O StPageFlip move estas divs para dentro da estrutura dele (.stf__item) e
+   controla o tamanho; a folha so precisa deixar o canvas preencher. */
+.flip_page canvas { display:block; width:100%; height:100%; }
+.stf__item .flip_page { width:100%; height:100%; }
+.flip_page_num { color:#bbb; font-size:.9rem; }
+.flip_status { position:absolute; color:#fff; font-size:1rem; }
+
+/* Telefone: a barra encolhe e o livro usa a tela toda. O StPageFlip entra em
+   modo retrato sozinho (usePortrait), e o JS ja calcula uma coluna abaixo de
+   700px, entao aqui e so respiro visual. */
+@media (max-width: 700px) {
+	.flip_toolbar { gap:.3rem; padding:.3rem; }
+	.flip_btn { padding:.2rem .55rem; }
+	.flip_btn_texto { font-size:.78rem; padding:.3rem .5rem; }
+	.flip_pos { min-width:5.5rem; font-size:.8rem; }
+	.flip_zoom_nivel { min-width:2.6rem; font-size:.78rem; }
+	body.pdf_flipbook .header_viewable_file .title { padding-right:5.5rem; }
+}

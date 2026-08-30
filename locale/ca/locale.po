@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: ca\n"
+
+
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "Lector de fullejat per a PDF"
+
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "Mode de lectura amb passada de pàgines per a PDF, al costat del visor tradicional."
+
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Fullejar"
+
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Obre en mode de passada de pàgines"
+
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Pàgina anterior"
+
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Pàgina següent"
+
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Mostra com a PDF"
+
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "S'està carregant el llibre..."
+
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "No s'ha pogut obrir aquest PDF en mode de passada de pàgines."
+
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "de"
+
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Redueix"
+
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Amplia"
+
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Pantalla completa"
+
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Aquest PDF té {n} pàgines; el mode de passada de pàgines està limitat a {teto}. Feu servir el visor de PDF."

@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: OJSBR\n"
+"Language-Team: OJSBR\n"
+"Language: hy\n"
+
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.displayName"
+msgstr "PDF թերթող ընթերցիչ"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.description"
+msgstr "PDF-երի համար էջերը թերթելու ընթերցման ռեժիմ՝ ավանդական դիտիչի կողքին."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhear"
+msgstr "Թերթել"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.folhearTitulo"
+msgstr "Բացել թերթելու ռեժիմում"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.anterior"
+msgstr "Նախորդ էջ"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.proxima"
+msgstr "Հաջորդ էջ"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.modoPdf"
+msgstr "Դիտել որպես PDF"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.carregando"
+msgstr "Գիրքը բեռնվում է..."
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.erro"
+msgstr "Այս PDF-ը չհաջողվեց բացել թերթելու ռեժիմում։"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.de"
+msgstr "-ից"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.reduzir"
+msgstr "Փոքրացնել"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.ampliar"
+msgstr "Մեծացնել"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.telaCheia"
+msgstr "Լիաէկրան"
+
+#, fuzzy
+msgid "plugins.generic.pdfFlipbook.grandeDemais"
+msgstr "Այս PDF-ը ունի {n} էջ; թերթելու ռեժիմը սահմանափակված է {teto}-ով։ Օգտագործեք PDF դիտիչը։"
