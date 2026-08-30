@@ -38,7 +38,21 @@
 	margin-top: .35rem !important;
 	display: inline-block;
 }
+/* A FONTE VAI DECLARADA AQUI, nao herdada. Na caixa de formatos do livro o tema
+   ja aplica FontAwesome aos links de download, e por isso o icone aparecia certo
+   ali. Mas o botao tambem e injetado na LISTA DE CAPITULOS, dentro de .files, que
+   nao recebe esse tratamento: la o ::before herdava a fonte do corpo (Noto Serif),
+   nao encontrava o glifo e desenhava um quadradinho. Declarar a fonte no proprio
+   pseudo-elemento faz o icone valer em qualquer contexto em que o botao apareca. */
 .flip_open_btn:before {
+	font-family: FontAwesome !important;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin-right: .35rem;
 	content: "\f02d" !important;   /* livro, no lugar da seta de download */
 }
 </style>

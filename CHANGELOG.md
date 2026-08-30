@@ -6,6 +6,18 @@ version numbers follow the PKP four-part scheme used in `version.xml`.
 
 ## [Unreleased]
 
+## [0.3.0.2] - 2026-08-30
+
+### Fixed
+- The button's icon rendered as an empty box wherever the theme does not style
+  the surrounding links. The `::before` carried the FontAwesome codepoint but
+  inherited the body font, so the glyph had nowhere to come from. It showed up
+  correctly next to the book's own PDF only because the theme applies FontAwesome
+  to download links inside the publication-format box; in a **chapter list**,
+  where the same button is injected, the container gets no such treatment and the
+  reader saw a tofu box. The font is now declared on the pseudo-element itself
+  instead of being inherited.
+
 ## [0.3.0.1] - 2026-08-30
 
 ### Added
@@ -26,6 +38,7 @@ version numbers follow the PKP four-part scheme used in `version.xml`.
 - Unit tests covering the rule that decides when the plugin takes over the
   request and locale integrity across all 38 locales.
 
-[Unreleased]: https://github.com/OJSBR/pdfFlipbookOmp/compare/0.3.0.1-omp3.5...stable-3_5_0
+[Unreleased]: https://github.com/OJSBR/pdfFlipbookOmp/compare/0.3.0.2-omp3.5...stable-3_5_0
+[0.3.0.2]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.2-omp3.5
 [0.3.0.1]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.1-omp3.5
 [0.3.0.0]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.0-omp3.5

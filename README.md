@@ -1,10 +1,10 @@
 # pdfFlipbook — OMP plugin
 
 [![OMP](https://img.shields.io/badge/OMP-3.5-brightgreen)](https://pkp.sfu.ca/omp/)
-[![Version](https://img.shields.io/badge/version-0.3.0.1-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-0.3.0.2-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OMP 3.5](https://github.com/OJSBR/pdfFlipbookOmp/releases/download/0.3.0.1-omp3.5/pdfFlipbook-0.3.0.1-omp3.5.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OMP 3.5](https://github.com/OJSBR/pdfFlipbookOmp/releases/download/0.3.0.2-omp3.5/pdfFlipbook-0.3.0.2-omp3.5.tar.gz) — or browse all [Releases](../../releases).
 
 **▶️ Live demo:** [Editora UEMG — book with a PDF format](https://ebooks.editora.uemg.br/editora/pt_BR/catalog/book/1)
 
@@ -19,7 +19,7 @@ and a full-viewport flipbook, and can go back to the ordinary PDF at any time.
 
 | Application | Version | Branch | Plugin release |
 |-------------|---------|--------|----------------|
-| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 0.3.0.1 |
+| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 0.3.0.2 |
 
 ## What it does
 
@@ -133,7 +133,7 @@ flipbook em tela cheia, e pode voltar ao PDF comum a qualquer momento.
 
 | Aplicação | Versão | Branch | Release do plugin |
 |-----------|--------|--------|-------------------|
-| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 0.3.0.1 |
+| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 0.3.0.2 |
 
 ### O que faz
 
