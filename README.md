@@ -13,15 +13,6 @@ and a full-viewport flipbook, and can go back to the ordinary PDF at any time.
 > **Developed and maintained by [OJSBR](https://ojsbr.com.br).** See the
 > [Credits & authorship](#credits--authorship) section below.
 
-> ⚠️ **Preview release (0.x).** It works and is covered by tests, but it has not been
-> validated on a real phone yet, and it ships ~2.8 MB of PDF.js. Treat 1.0 as the point
-> where those two are settled.
-
-> ⚠️ **Do not rename the plugin folder.** It must be installed as
-> `plugins/generic/pdfFlipbook`. PKP 3.5 derives the plugin class namespace from the
-> directory name, so a renamed folder produces a plugin that never loads. The repository
-> carries the `Omp` suffix by house convention; the folder does not.
-
 ## Compatibility & branches
 
 | Application | Version | Branch | Plugin release |
@@ -121,14 +112,6 @@ libraries keep their own licences (MIT for StPageFlip, Apache 2.0 for PDF.js).
 Modo de leitura **folheável** para PDF de livros, que fica **ao lado** do visualizador
 nativo em vez de substituí-lo: o leitor ganha um botão *Folhear* na página do livro e um
 flipbook em tela cheia, e pode voltar ao PDF comum a qualquer momento.
-
-> ⚠️ **Release de prévia (0.x).** Funciona e tem testes, mas ainda não foi validado em
-> telefone real e carrega ~2,8 MB de PDF.js. A 1.0 é quando esses dois estiverem
-> resolvidos.
-
-> ⚠️ **Não renomeie a pasta do plugin.** Ele precisa ficar em
-> `plugins/generic/pdfFlipbook`: o PKP 3.5 deriva o namespace da classe do nome do
-> diretório. O sufixo `Omp` é do repositório, não da pasta.
 
 ### Compatibilidade e branches
 
