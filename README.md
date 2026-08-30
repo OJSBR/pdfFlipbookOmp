@@ -1,10 +1,12 @@
 # pdfFlipbook — OMP plugin
 
 [![OMP](https://img.shields.io/badge/OMP-3.5-brightgreen)](https://pkp.sfu.ca/omp/)
-[![Version](https://img.shields.io/badge/version-0.3.0.0-blue)](version.xml)
+[![Version](https://img.shields.io/badge/version-0.3.0.1-blue)](version.xml)
 [![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey)](LICENSE)
 
-**⬇️ Install package:** [OMP 3.5](https://github.com/OJSBR/pdfFlipbookOmp/releases/download/0.3.0.0-omp3.5/pdfFlipbook-0.3.0.0-omp3.5.tar.gz) — or browse all [Releases](../../releases).
+**⬇️ Install package:** [OMP 3.5](https://github.com/OJSBR/pdfFlipbookOmp/releases/download/0.3.0.1-omp3.5/pdfFlipbook-0.3.0.1-omp3.5.tar.gz) — or browse all [Releases](../../releases).
+
+**▶️ Live demo:** [Editora UEMG — book with a PDF format](https://ebooks.editora.uemg.br/editora/pt_BR/catalog/book/1)
 
 A **page-turning** reading mode for PDF monographs, sitting **beside** the native PDF
 viewer instead of replacing it: the reader gets a *Flip through* button on the book page
@@ -17,7 +19,7 @@ and a full-viewport flipbook, and can go back to the ordinary PDF at any time.
 
 | Application | Version | Branch | Plugin release |
 |-------------|---------|--------|----------------|
-| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 0.3.0.0 |
+| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(default)* | 0.3.0.1 |
 
 ## What it does
 
@@ -83,8 +85,19 @@ every locale carrying every key with no empty value, no legacy locale codes, and
 key used in a template present in `locale/en`, since in 3.5 a missing key renders as
 `##key##` instead of falling back to English.
 
-Cypress specs are not included yet; page turning, zoom and resize were verified by hand
-in a browser against a real installation.
+Cypress, from the installation root:
+
+```bash
+npx cypress run \
+  --config specPattern='plugins/generic/pdfFlipbook/cypress/tests/functional/*.cy.js' \
+  --env contextPath=mypress,adminUsername=admin,adminPassword=secret
+```
+
+3 specs: enabling the plugin, the flipbook button appearing **next to** the ordinary PDF
+link (never replacing it) and the pages actually rendering, and navigation, zoom and the
+way back to the book page. The zoom assertion exists because zooming destroys and rebuilds
+the StPageFlip instance — a bug once remounted it into an orphan node and left the screen
+blank with no console error at all.
 
 ## Credits & authorship
 
@@ -113,11 +126,14 @@ Modo de leitura **folheável** para PDF de livros, que fica **ao lado** do visua
 nativo em vez de substituí-lo: o leitor ganha um botão *Folhear* na página do livro e um
 flipbook em tela cheia, e pode voltar ao PDF comum a qualquer momento.
 
+
+**▶️ Demonstração:** [Editora UEMG — livro com formato PDF](https://ebooks.editora.uemg.br/editora/pt_BR/catalog/book/1)
+
 ### Compatibilidade e branches
 
 | Aplicação | Versão | Branch | Release do plugin |
 |-----------|--------|--------|-------------------|
-| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 0.3.0.0 |
+| OMP | 3.5.x | [`stable-3_5_0`](../../tree/stable-3_5_0) *(padrão)* | 0.3.0.1 |
 
 ### O que faz
 
@@ -168,14 +184,29 @@ aponta o visualizador de PDF.
 
 ### Testes
 
-PHPUnit, na suíte `ApplicationPlugins` do PKP — 6 testes e 638 asserções cobrindo a regra
-de despacho (`assumeArquivo`): só PDF, só com o parâmetro presente, nunca EPUB, áudio ou
-tipo vazio; e a integridade dos locales — todos com todas as chaves, sem valor vazio, sem
-códigos legados, e toda chave usada em template presente no `locale/en`, já que no 3.5
-chave faltante vira `##chave##` em vez de cair no inglês.
+PHPUnit, na suíte `ApplicationPlugins` da PKP:
 
-Ainda não há specs de Cypress; virada de página, zoom e redimensionamento foram
-verificados à mão no navegador contra uma instalação real.
+```bash
+cd lib/pkp/tests
+php ../lib/vendor/bin/phpunit --no-coverage -c phpunit.xml \
+  /caminho/absoluto/plugins/generic/pdfFlipbook/tests
+```
+
+6 testes / 638 asserções cobrindo a regra de despacho (`assumeArquivo`) e a integridade
+dos 38 locales, inclusive toda chave usada em template existir no `locale/en`.
+
+Cypress, a partir da raiz da instalação:
+
+```bash
+npx cypress run \
+  --config specPattern='plugins/generic/pdfFlipbook/cypress/tests/functional/*.cy.js' \
+  --env contextPath=minhaeditora,adminUsername=admin,adminPassword=senha
+```
+
+3 specs: ligar o plugin, o botão aparecer **ao lado** do link de PDF (nunca no lugar dele)
+com as páginas realmente renderizando, e a navegação, o zoom e a volta para a página do livro.
+O teste de zoom existe porque o zoom desmonta e remonta o StPageFlip — um bug já remontou
+num nó órfão e deixou a tela em branco sem erro nenhum no console.
 
 ### Créditos e autoria
 
