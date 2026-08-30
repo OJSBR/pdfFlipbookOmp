@@ -15,7 +15,14 @@
 			var rotulo = (a.textContent || '').toUpperCase();
 			if (rotulo.indexOf('PDF') === -1) return;   // so nos formatos PDF
 			var b = document.createElement('a');
-			b.className = 'flip_open_btn';
+			// Copia as classes do link vizinho antes de acrescentar a propria. O
+			// vizinho e o link de PDF do OMP (cmp_download_link), que e o que cada
+			// tema estiliza como botao. Sem isso o botao so parecia botao onde o
+			// tema por acaso estilizasse QUALQUER link — na caixa de formatos do
+			// livro sim, na lista de capitulos nao, e ali ele saia como texto
+			// sublinhado no meio de botoes. Herdando a classe do irmao, ele fica
+			// igual ao vizinho em qualquer contexto e em qualquer tema.
+			b.className = ((a.className || '') + ' flip_open_btn').trim();
 			b.href = a.href + (a.href.indexOf('?') === -1 ? '?' : '&') + PARAM;
 			b.textContent = {$rotuloFolhear|json_encode nofilter};
 			b.title = {$tituloFolhear|json_encode nofilter};

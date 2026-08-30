@@ -40,8 +40,19 @@ class PdfFlipbookPlugin extends GenericPlugin
         if ($this->getEnabled($mainContextId)) {
             // Sequencia normal: roda antes do pdfJsViewer, que e SEQUENCE_LATE.
             Hook::add('CatalogBookHandler::view', [$this, 'viewCallback']);
-            // Botao "Folhear" ao lado dos downloads de PDF na pagina do livro.
+            // Botao "Folhear" ao lado de cada link de PDF.
+            //
+            // Sao DOIS ganchos porque o OMP tem duas paginas de leitura e cada uma
+            // chama os seus: a pagina do livro dispara Templates::Catalog::Book::*,
+            // e a pagina propria do capitulo (quando "Ativar a pagina do capitulo"
+            // esta ligada) dispara Templates::Catalog::Chapter::*. Registrando so o
+            // primeiro, o botao sumia justamente na pagina do capitulo — que e onde
+            // o leitor chega quando o livro tem capitulos.
+            //
+            // Nao ha risco de injetar duas vezes: os ganchos nao coexistem na mesma
+            // requisicao, e o proprio script marca cada link com data-flip-done.
             Hook::add('Templates::Catalog::Book::Details', [$this, 'botaoCallback']);
+            Hook::add('Templates::Catalog::Chapter::Details', [$this, 'botaoCallback']);
         }
         return true;
     }

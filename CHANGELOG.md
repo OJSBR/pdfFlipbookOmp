@@ -6,6 +6,22 @@ version numbers follow the PKP four-part scheme used in `version.xml`.
 
 ## [Unreleased]
 
+## [0.3.0.3] - 2026-08-30
+
+### Fixed
+- **The button never appeared on a chapter's own landing page.** The plugin
+  hooked `Templates::Catalog::Book::Details`, and OMP does not call that hook on
+  the chapter page — it has its own, `Templates::Catalog::Chapter::*`. So on a
+  book with chapters, the button was missing from exactly the page the reader
+  lands on. Both hooks are now registered.
+- **The button did not look like a button outside the publication-format box.**
+  It was injected as a bare anchor and relied on the theme styling any link in
+  its neighbourhood — true inside `.pub_format_*`, false in a chapter list, where
+  only `.cmp_download_link` is styled and the button rendered as underlined text
+  among real buttons. It now copies the class list of the PDF link next to it
+  before adding its own, so it is a visual sibling of that link in any context
+  and under any theme, instead of depending on one theme's generosity.
+
 ## [0.3.0.2] - 2026-08-30
 
 ### Fixed
@@ -38,7 +54,8 @@ version numbers follow the PKP four-part scheme used in `version.xml`.
 - Unit tests covering the rule that decides when the plugin takes over the
   request and locale integrity across all 38 locales.
 
-[Unreleased]: https://github.com/OJSBR/pdfFlipbookOmp/compare/0.3.0.2-omp3.5...stable-3_5_0
+[Unreleased]: https://github.com/OJSBR/pdfFlipbookOmp/compare/0.3.0.3-omp3.5...stable-3_5_0
+[0.3.0.3]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.3-omp3.5
 [0.3.0.2]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.2-omp3.5
 [0.3.0.1]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.1-omp3.5
 [0.3.0.0]: https://github.com/OJSBR/pdfFlipbookOmp/releases/tag/0.3.0.0-omp3.5
